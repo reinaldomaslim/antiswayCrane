@@ -1,0 +1,2547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="06/08/15||11:34:04" using="SimMechanics Link Version 4.1" from="SolidWorks 20.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Full_assem" uid="Full_assem" version="459">
+<AssemblyFile name="Full_assem.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="NFS6-5050-600-1" uid="NFS6-5050-600-1" grounded="true" entityUid="NFS6-5050-600*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0414943 0.0235147 0.30592</Translation>
+</Transform>
+</Instance>
+<Instance name="NFS6-5050-1200-1" uid="NFS6-5050-1200-1" entityUid="NFS6-5050-1200*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.0414943 0.0485147 0.18092</Translation>
+</Transform>
+</Instance>
+<Instance name="NFS6-5050-600-2" uid="NFS6-5050-600-2" entityUid="NFS6-5050-600*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.00851 0.0235147 0.30592</Translation>
+</Transform>
+</Instance>
+<Instance name="NFS6-5050-1150-1" uid="NFS6-5050-1150-1" entityUid="NFS6-5050-1150*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>1.00851 0.0485147 -0.16908</Translation>
+</Transform>
+</Instance>
+<Instance name="NFS6-5050-1150-2" uid="NFS6-5050-1150-2" entityUid="NFS6-5050-1150*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>1.00851 0.0485147 0.18092</Translation>
+</Transform>
+</Instance>
+<Instance name="NFS6-5050-400-1" uid="NFS6-5050-400-1" entityUid="NFS6-5050-400*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.00851 1.22351 0.20592</Translation>
+</Transform>
+</Instance>
+<Instance name="NFS6-5050-1000-1" uid="NFS6-5050-1000-1" entityUid="NFS6-5050-1000*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.983506 0.0235147 0.00592045</Translation>
+</Transform>
+</Instance>
+<Instance name="rail_assem-1" uid="rail_assem-1" entityUid="rail_assem" rigid="true">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.487499 1.28706 0.208801</Translation>
+</Transform>
+<Instance name="NEFS6-3030-1100-1" uid="NEFS6-3030-1100-1" grounded="true" entityUid="NEFS6-3030-1100*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0378806 -0.0235451 0.546007</Translation>
+</Transform>
+</Instance>
+<Instance name="KSRLR16-1000-1" uid="KSRLR16-1000-1" entityUid="KSRLR16-1000*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0378806 -0.00229514 0.461007</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HBLFTD6_50_flange-1" uid="HBLFTD6_50_flange-1" entityUid="HBLFTD6_50_flange*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.988506 0.0485147 0.20592</Translation>
+</Transform>
+</Instance>
+<Instance name="HBLFTD6_50_flange-2" uid="HBLFTD6_50_flange-2" entityUid="HBLFTD6_50_flange*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>1.02851 0.0485147 -0.19408</Translation>
+</Transform>
+</Instance>
+<Instance name="HBLFTD6_50_flange-3" uid="HBLFTD6_50_flange-3" entityUid="HBLFTD6_50_flange*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.0214943 0.0485147 0.15592</Translation>
+</Transform>
+</Instance>
+<Instance name="HBLFTD6_50_flange-4" uid="HBLFTD6_50_flange-4" entityUid="HBLFTD6_50_flange*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.0614943 0.0485147 0.20592</Translation>
+</Transform>
+</Instance>
+<Instance name="HBLFTD6_50_flange-5" uid="HBLFTD6_50_flange-5" entityUid="HBLFTD6_50_flange*:*Default">
+<Transform>
+<Rotation>0 1 0 0 0 -1 -1 0 0</Rotation>
+<Translation>-0.0164943 0.0435147 0.0309204</Translation>
+</Transform>
+</Instance>
+<Instance name="HBLFTD6_50_flange-6" uid="HBLFTD6_50_flange-6" entityUid="HBLFTD6_50_flange*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0 -1 0 -1 0</Rotation>
+<Translation>-0.0164943 0.0435147 -0.0190796</Translation>
+</Transform>
+</Instance>
+<Instance name="HBLFTD6_50_flange-7" uid="HBLFTD6_50_flange-7" entityUid="HBLFTD6_50_flange*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.983506 0.0435147 0.0309204</Translation>
+</Transform>
+</Instance>
+<Instance name="HBLFTD6_50_flange-8" uid="HBLFTD6_50_flange-8" entityUid="HBLFTD6_50_flange*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.988506 0.0485147 -0.14408</Translation>
+</Transform>
+</Instance>
+<Instance name="HBLFTD6_50_flange-9" uid="HBLFTD6_50_flange-9" entityUid="HBLFTD6_50_flange*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>1.02851 0.0485147 0.15592</Translation>
+</Transform>
+</Instance>
+<Instance name="HBLFTD6_50_flange-10" uid="HBLFTD6_50_flange-10" entityUid="HBLFTD6_50_flange*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>0.983506 0.00351471 -0.0190796</Translation>
+</Transform>
+</Instance>
+<Instance name="HBLFSN6_-1" uid="HBLFSN6_-1" entityUid="HBLFSN6_*:*Default">
+<Transform>
+<Rotation>0 1 0 0 0 -1 -1 0 0</Rotation>
+<Translation>-0.0164943 1.24851 0.17092</Translation>
+</Transform>
+</Instance>
+<Instance name="HBLFSN6_-2" uid="HBLFSN6_-2" entityUid="HBLFSN6_*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 -1 0 -1 0 0</Rotation>
+<Translation>0.983506 1.24851 0.17092</Translation>
+</Transform>
+</Instance>
+<Instance name="KSRL_trolley-1" uid="KSRL_trolley-1" entityUid="KSRL_trolley" rigid="true">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.576023 1.287 0.169366</Translation>
+</Transform>
+<Instance name="KSRLS16_trolley-1" uid="KSRLS16_trolley-1" grounded="true" entityUid="KSRLS16_trolley*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.00155456 0.000760583 0.00030359</Translation>
+</Transform>
+</Instance>
+<Instance name="B673ZZ_wheel-1" uid="B673ZZ_wheel-1" entityUid="B673ZZ_wheel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00644544 -0.00236442 0.0193036</Translation>
+</Transform>
+</Instance>
+<Instance name="B673ZZ_wheel-2" uid="B673ZZ_wheel-2" entityUid="B673ZZ_wheel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.00644544 -0.00236442 -0.0186964</Translation>
+</Transform>
+</Instance>
+<Instance name="B673ZZ_wheel-3" uid="B673ZZ_wheel-3" entityUid="B673ZZ_wheel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0120546 -0.00236442 0.0193036</Translation>
+</Transform>
+</Instance>
+<Instance name="B673ZZ_wheel-4" uid="B673ZZ_wheel-4" entityUid="B673ZZ_wheel*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0120546 -0.00236442 -0.0186964</Translation>
+</Transform>
+</Instance>
+<Instance name="SHTBT815-1" uid="SHTBT815-1" entityUid="SHTBT815" rigid="true">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.00844544 0.00701058 0.00030359</Translation>
+</Transform>
+<Instance name="SHTBT815_b-1" uid="SHTBT815_b-1" grounded="true" entityUid="SHTBT815_b*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Hexagon socket set screw with flat point DIN 913 - M4x5-1" uid="Hexagon socket set screw with flat point DIN 913 - M4x5-1" entityUid="Hexagon socket set screw with flat point DIN 913 - M4x5*:*Default">
+<Transform>
+<Rotation>0 0 -1 -1 0 0 0 1 0</Rotation>
+<Translation>0 0.024 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SHTBT815-2" uid="SHTBT815-2" entityUid="SHTBT815" rigid="true">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.0115546 0.00701058 0.00030359</Translation>
+</Transform>
+<Instance name="SHTBT815_b-1" uid="SHTBT815_b-1" grounded="true" entityUid="SHTBT815_b*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Hexagon socket set screw with flat point DIN 913 - M4x5-1" uid="Hexagon socket set screw with flat point DIN 913 - M4x5-1" entityUid="Hexagon socket set screw with flat point DIN 913 - M4x5*:*Default">
+<Transform>
+<Rotation>0 0 -1 -1 0 0 0 1 0</Rotation>
+<Translation>0 0.024 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="SFAN8-40-F10-B0-P4-1" uid="SFAN8-40-F10-B0-P4-1" entityUid="SFAN8-40-F10-B0-P4*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0415546 0.0220106 0.00030359</Translation>
+</Transform>
+</Instance>
+<Instance name="SFAN8-40-F10-B0-P4-2" uid="SFAN8-40-F10-B0-P4-2" entityUid="SFAN8-40-F10-B0-P4*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 0.381849 -0.924225 0 -0.924225 -0.381849</Rotation>
+<Translation>0.0384454 0.0220106 0.00030359</Translation>
+</Transform>
+</Instance>
+<Instance name="customized metal_fitting-1" uid="customized metal_fitting-1" entityUid="customized metal_fitting*:*Default">
+<Transform>
+<Rotation>6.38378e-016 0 -1 0 -1 0 -1 0 -6.38378e-016</Rotation>
+<Translation>-0.00155456 0.0145106 0.00030359</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="load-1" uid="load-1" entityUid="load*:*Default">
+<Transform>
+<Rotation>0.821306 -0.570487 0 0.570487 0.821306 0 0 0 1</Rotation>
+<Translation>0.576326 1.30901 0.12592</Translation>
+</Transform>
+</Instance>
+<Instance name="HCFT5-60-1" uid="HCFT5-60-1" entityUid="HCFT5-60" rigid="true">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.0464943 -0.00148529 -0.27408</Translation>
+</Transform>
+<Instance name="HCFT60-Plate5-1" uid="HCFT60-Plate5-1" grounded="true" entityUid="HCFT60-Plate5*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="-6066adjuster-1" uid="-6066adjuster-1" entityUid="-6066adjuster*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.058 0</Translation>
+</Transform>
+</Instance>
+<Instance name="-HCFTF60body-1" uid="-HCFTF60body-1" entityUid="-HCFTF60body*:*Default">
+<Transform>
+<Rotation>-0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107</Rotation>
+<Translation>0.0388 -0.015 -0.0388</Translation>
+</Transform>
+</Instance>
+<Instance name="-HCFTF60184015wheel-1" uid="-HCFTF60184015wheel-1" entityUid="-HCFTF60184015wheel*:*Default">
+<Transform>
+<Rotation>0.707107 0 0.707107 0 -1 0 0.707107 0 -0.707107</Rotation>
+<Translation>0.0529421 -0.046 -0.0529421</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HCFT5-60-2" uid="HCFT5-60-2" entityUid="HCFT5-60" rigid="true">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>1.01351 -0.00148529 0.28592</Translation>
+</Transform>
+<Instance name="HCFT60-Plate5-1" uid="HCFT60-Plate5-1" grounded="true" entityUid="HCFT60-Plate5*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="-6066adjuster-1" uid="-6066adjuster-1" entityUid="-6066adjuster*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.058 0</Translation>
+</Transform>
+</Instance>
+<Instance name="-HCFTF60body-1" uid="-HCFTF60body-1" entityUid="-HCFTF60body*:*Default">
+<Transform>
+<Rotation>-0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107</Rotation>
+<Translation>0.0388 -0.015 -0.0388</Translation>
+</Transform>
+</Instance>
+<Instance name="-HCFTF60184015wheel-1" uid="-HCFTF60184015wheel-1" entityUid="-HCFTF60184015wheel*:*Default">
+<Transform>
+<Rotation>0.707107 0 0.707107 0 -1 0 0.707107 0 -0.707107</Rotation>
+<Translation>0.0529421 -0.046 -0.0529421</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HCFT5-60-3" uid="HCFT5-60-3" entityUid="HCFT5-60" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>1.01351 -0.00148529 -0.27408</Translation>
+</Transform>
+<Instance name="HCFT60-Plate5-1" uid="HCFT60-Plate5-1" grounded="true" entityUid="HCFT60-Plate5*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="-6066adjuster-1" uid="-6066adjuster-1" entityUid="-6066adjuster*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.058 0</Translation>
+</Transform>
+</Instance>
+<Instance name="-HCFTF60body-1" uid="-HCFTF60body-1" entityUid="-HCFTF60body*:*Default">
+<Transform>
+<Rotation>-0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107</Rotation>
+<Translation>0.0388 -0.015 -0.0388</Translation>
+</Transform>
+</Instance>
+<Instance name="-HCFTF60184015wheel-1" uid="-HCFTF60184015wheel-1" entityUid="-HCFTF60184015wheel*:*Default">
+<Transform>
+<Rotation>0.707107 0 0.707107 0 -1 0 0.707107 0 -0.707107</Rotation>
+<Translation>0.0529421 -0.046 -0.0529421</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HCFT5-60-4" uid="HCFT5-60-4" entityUid="HCFT5-60" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0464943 -0.00148529 0.28592</Translation>
+</Transform>
+<Instance name="HCFT60-Plate5-1" uid="HCFT60-Plate5-1" grounded="true" entityUid="HCFT60-Plate5*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="-6066adjuster-1" uid="-6066adjuster-1" entityUid="-6066adjuster*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 -0.058 0</Translation>
+</Transform>
+</Instance>
+<Instance name="-HCFTF60body-1" uid="-HCFTF60body-1" entityUid="-HCFTF60body*:*Default">
+<Transform>
+<Rotation>-0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107</Rotation>
+<Translation>0.0388 -0.015 -0.0388</Translation>
+</Transform>
+</Instance>
+<Instance name="-HCFTF60184015wheel-1" uid="-HCFTF60184015wheel-1" entityUid="-HCFTF60184015wheel*:*Default">
+<Transform>
+<Rotation>0.707107 0 0.707107 0 -1 0 0.707107 0 -0.707107</Rotation>
+<Translation>0.0529421 -0.046 -0.0529421</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Motor_assem-1" uid="Motor_assem-1" entityUid="Motor_assem" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.01418 1.30825 0.138748</Translation>
+</Transform>
+<Instance name="GYS500D5B2_fuji_servomotor-1" uid="GYS500D5B2_fuji_servomotor-1" grounded="true" entityUid="GYS500D5B2_fuji_servomotor*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.00567014 -0.00173697 0.00417213</Translation>
+</Transform>
+</Instance>
+<Instance name="HTPA14S5M100-B-P6_a-1" uid="HTPA14S5M100-B-P6_a-1" entityUid="HTPA14S5M100-B-P6_a*:*Default">
+<Transform>
+<Rotation>0 -0.770442 0.63751 0 0.63751 0.770442 -1 0 0</Rotation>
+<Translation>-0.00567014 -0.00173697 0.0396721</Translation>
+</Transform>
+</Instance>
+<Instance name="motor_mount-1" uid="motor_mount-1" entityUid="motor_mount*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.00567014 -0.014737 0.00917213</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="opposite_pulley_assem-1" uid="opposite_pulley_assem-1" entityUid="opposite_pulley_assem" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0460211 1.27517 0.17756</Translation>
+</Transform>
+<Instance name="pulley_flange-1" uid="pulley_flange-1" grounded="true" entityUid="pulley_flange*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.000473193 -0.0266573 0.0183603</Translation>
+</Transform>
+</Instance>
+<Instance name="FL696ZZ-1" uid="FL696ZZ-1" entityUid="FL696ZZ*:*Default">
+<Transform>
+<Rotation>0 -0.621729 -0.783232 0 -0.783232 0.621729 -1 0 0</Rotation>
+<Translation>-0.000473193 0.0313427 0.0221603</Translation>
+</Transform>
+</Instance>
+<Instance name="6x50_shaft-1" uid="6x50_shaft-1" entityUid="6x50_shaft*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.000473193 0.0313427 -0.0266397</Translation>
+</Transform>
+</Instance>
+<Instance name="pulley_plate2-1" uid="pulley_plate2-1" entityUid="pulley_plate2*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.0411981 0.0260486 -0.0216397</Translation>
+</Transform>
+</Instance>
+<Instance name="FL696ZZ-2" uid="FL696ZZ-2" entityUid="FL696ZZ*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.000473193 0.0313427 -0.0254397</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HTPA14S5M100-B-P6_a-1" uid="HTPA14S5M100-B-P6_a-1" entityUid="HTPA14S5M100-B-P6_a*:*Default">
+<Transform>
+<Rotation>0 -0.167295 -0.985907 0 0.985907 -0.167295 1 0 0</Rotation>
+<Translation>-0.0464943 1.30651 0.16242</Translation>
+</Transform>
+</Instance>
+<Instance name="HFC6-3030-B-1" uid="HFC6-3030-B-1" entityUid="HFC6-3030-B" rigid="true">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.0649943 1.26351 0.17092</Translation>
+</Transform>
+<Instance name="HFC6-3030-Bc-1" uid="HFC6-3030-Bc-1" grounded="true" entityUid="HFC6-3030-Bc*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HFC6-3030-B-2" uid="HFC6-3030-B-2" entityUid="HFC6-3030-B" rigid="true">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>1.03351 1.26351 0.17092</Translation>
+</Transform>
+<Instance name="HFC6-3030-Bc-1" uid="HFC6-3030-Bc-1" grounded="true" entityUid="HFC6-3030-Bc*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HFC6-5050-B-1" uid="HFC6-5050-B-1" entityUid="HFC6-5050-B" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0414943 0.0235147 -0.29408</Translation>
+</Transform>
+<Instance name="HFC6-5050-Bc-1" uid="HFC6-5050-Bc-1" grounded="true" entityUid="HFC6-5050-Bc*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HFC6-5050-B-2" uid="HFC6-5050-B-2" entityUid="HFC6-5050-B" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.00851 1.22351 -0.19408</Translation>
+</Transform>
+<Instance name="HFC6-5050-Bc-1" uid="HFC6-5050-Bc-1" grounded="true" entityUid="HFC6-5050-Bc*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HFC6-5050-B-3" uid="HFC6-5050-B-3" entityUid="HFC6-5050-B" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.00851 0.0235147 -0.29408</Translation>
+</Transform>
+<Instance name="HFC6-5050-Bc-1" uid="HFC6-5050-Bc-1" grounded="true" entityUid="HFC6-5050-Bc*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HFC6-5050-B-4" uid="HFC6-5050-B-4" entityUid="HFC6-5050-B" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.0414943 0.0235147 0.30592</Translation>
+</Transform>
+<Instance name="HFC6-5050-Bc-1" uid="HFC6-5050-Bc-1" grounded="true" entityUid="HFC6-5050-Bc*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HFC6-5050-B-5" uid="HFC6-5050-B-5" entityUid="HFC6-5050-B" rigid="true">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>1.00851 0.0235147 0.30592</Translation>
+</Transform>
+<Instance name="HFC6-5050-Bc-1" uid="HFC6-5050-Bc-1" grounded="true" entityUid="HFC6-5050-Bc*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HFC6-5050-B-6" uid="HFC6-5050-B-6" entityUid="HFC6-5050-B" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 -1 0 0 0 -1</Rotation>
+<Translation>1.00851 1.22351 0.20592</Translation>
+</Transform>
+<Instance name="HFC6-5050-Bc-1" uid="HFC6-5050-Bc-1" grounded="true" entityUid="HFC6-5050-Bc*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HNTLP6-1100-M3-N65-P80-13-1" uid="HNTLP6-1100-M3-N65-P80-13-1" entityUid="HNTLP6-1100-M3-N65-P80-13*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>1.03351 1.27101 0.17092</Translation>
+</Transform>
+</Instance>
+<Instance name="HBLFTD6_50_flange-11" uid="HBLFTD6_50_flange-11" entityUid="HBLFTD6_50_flange*:*Default">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>0.988506 1.19851 -0.14408</Translation>
+</Transform>
+</Instance>
+<Instance name="HBLFTD6_50_flange-12" uid="HBLFTD6_50_flange-12" entityUid="HBLFTD6_50_flange*:*Default">
+<Transform>
+<Rotation>0 0 1 0 -1 0 1 0 0</Rotation>
+<Translation>0.988506 1.19851 0.15592</Translation>
+</Transform>
+</Instance>
+<Instance name="Belt1-1^Full_assem-1" uid="Belt1-1^Full_assem-1" entityUid="Belt1-1^Full_assem*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>-0.0538819 1.31342 0.17592</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1200-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -0.6</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1200-1</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -1.2</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1200-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -1.2</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-2</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -0.6</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-2</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -1.15</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-2</Uid>
+</InstancePath>
+<Position>0.006 0.025 -1.15</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -0.6</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-1</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -1.15</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-1</Uid>
+</InstancePath>
+<Position>-0.006 -0.025 -1.15</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.023 0.023 -0.6</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-2</Uid>
+</InstancePath>
+<Position>-0.023 0.023 -1.15</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>-0.006 -0.025 -0.4</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-2</Uid>
+</InstancePath>
+<Position>0.006 0.025 -1.15</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-2</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -1.15</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -0.4</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.025 0.006 -0.6</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.014 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -1</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>-0.025 0.006 -1</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -0.6</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 -1</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>0.023 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -1</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>-0.025 0.006 -1</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>0.025 0.014 -0.4</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>-0.0055 -0.00065359 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>0.015 0.004 -1.1</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1200-1</Uid>
+</InstancePath>
+<Position>-0.006 -0.025 -1.2</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1200-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 -1.2</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>-0.013 -0.015 -1.1</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1200-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -1.2</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-4</Uid>
+</InstancePath>
+<Position>0 0.056 0.04</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-4</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>1.22465e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.025 0.023 -0.6</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident26">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1200-1</Uid>
+</InstancePath>
+<Position>-0.006 -0.025 -1.2</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-3</Uid>
+</InstancePath>
+<Position>0 0.056 0.04</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-3</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>1.22465e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-3</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.025 0.023 -0.6</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-1</Uid>
+</InstancePath>
+<Position>-0.006 -0.025 -1.15</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-2</Uid>
+</InstancePath>
+<Position>0 0.056 0.04</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-2</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>1.22465e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.025 0.014 -0.6</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident32">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -1.15</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-8</Uid>
+</InstancePath>
+<Position>0 0.056 0.04</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-8</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>1.22465e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -0.6</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-8</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident35">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-2</Uid>
+</InstancePath>
+<Position>-0.006 -0.025 -1.15</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-9</Uid>
+</InstancePath>
+<Position>0 0.056 0.04</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-9</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>1.22465e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-9</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -0.6</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-2</Uid>
+</InstancePath>
+<Position>0.006 0.025 -1.15</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-1</Uid>
+</InstancePath>
+<Position>0 0.056 0.04</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-1</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>1.22465e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-1</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-2</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -1.15</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -0.6</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-6</Uid>
+</InstancePath>
+<Position>0 0.056 0.04</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -1</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-6</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>1.22465e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>0.023 0.025 -1</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident45">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -0.6</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-5</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>1.22465e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident46">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>-0.025 0.006 -1</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-5</Uid>
+</InstancePath>
+<Position>0 0.056 0.04</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>-0.023 -0.025 -1</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-5</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.025 0.006 -0.6</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-7</Uid>
+</InstancePath>
+<Position>0 0.056 0.04</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident49">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>-0.025 0.006 -1</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-7</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>1.22465e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -1</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident51">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -1</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-10</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>1.22465e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident52">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.025 0.006 -0.6</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-10</Uid>
+</InstancePath>
+<Position>0 0.056 0.04</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-10</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1000-1</Uid>
+</InstancePath>
+<Position>0.023 0.025 -1</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident54">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>0.004 -0.015 -1.1</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFSN6_-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident55">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>-0.025 0.023 -0.4</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFSN6_-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFSN6_-2</Uid>
+</InstancePath>
+<Position>0.01 0.029 0.00358579</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>0.015 -0.013 -1.1</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>0.004 -0.015 -1.1</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFSN6_-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident58">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1200-1</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -1.2</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFSN6_-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFSN6_-1</Uid>
+</InstancePath>
+<Position>0.01 0.029 0.00358579</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>0.015 -0.013 -1.1</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident60">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>KSRLR16-1000-1</Uid>
+</InstancePath>
+<Position>-0.0066 0.00625 0.035</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>KSRL_trolley-1</Uid>
+<Uid>KSRLS16_trolley-1</Uid>
+</InstancePath>
+<Position>-0.015 0.00325 0.023</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident61">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>KSRLR16-1000-1</Uid>
+</InstancePath>
+<Position>-0.015 0.00525 0.035</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>KSRL_trolley-1</Uid>
+<Uid>KSRLS16_trolley-1</Uid>
+</InstancePath>
+<Position>-0.015 0.00625 0.023</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Full_assem</Uid>
+</InstancePath>
+<Position>0.842704 1.30901 0.12592</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>load-1</Uid>
+</InstancePath>
+<Position>0 0 0.005</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>load-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Full_assem</Uid>
+</InstancePath>
+<Position>0.842704 1.30901 0.12592</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident63">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.006 -0.025 -0.6</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HCFT5-60-3</Uid>
+<Uid>HCFT60-Plate5-1</Uid>
+</InstancePath>
+<Position>-0.014 0 -0.069</Position>
+<Axis>0 1 2.22045e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident64">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HCFT5-60-3</Uid>
+<Uid>HCFT60-Plate5-1</Uid>
+</InstancePath>
+<Position>-0.02 -0.01 -0.069</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -0.6</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident65">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.023 0.023 -0.6</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HCFT5-60-3</Uid>
+<Uid>HCFT60-Plate5-1</Uid>
+</InstancePath>
+<Position>0 -0.01 0.02</Position>
+<Axis>0 2.22045e-016 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident66">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.006 -0.025 -0.6</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HCFT5-60-2</Uid>
+<Uid>HCFT60-Plate5-1</Uid>
+</InstancePath>
+<Position>-0.014 0 -0.069</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident67">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -0.6</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HCFT5-60-2</Uid>
+<Uid>HCFT60-Plate5-1</Uid>
+</InstancePath>
+<Position>0 -0.01 0.02</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident68">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HCFT5-60-2</Uid>
+<Uid>HCFT60-Plate5-1</Uid>
+</InstancePath>
+<Position>-0.02 -0.01 -0.069</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident69">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.006 -0.025 -0.6</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HCFT5-60-1</Uid>
+<Uid>HCFT60-Plate5-1</Uid>
+</InstancePath>
+<Position>-0.014 0 -0.069</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident70">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 -0.6</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HCFT5-60-1</Uid>
+<Uid>HCFT60-Plate5-1</Uid>
+</InstancePath>
+<Position>-0.02 -0.01 -0.069</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident71">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.025 -0.014 -0.6</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HCFT5-60-1</Uid>
+<Uid>HCFT60-Plate5-1</Uid>
+</InstancePath>
+<Position>0 -0.01 0.02</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident72">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.006 -0.025 -0.6</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HCFT5-60-4</Uid>
+<Uid>HCFT60-Plate5-1</Uid>
+</InstancePath>
+<Position>-0.014 0 -0.069</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident73">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.025 -0.014 -0.6</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HCFT5-60-4</Uid>
+<Uid>HCFT60-Plate5-1</Uid>
+</InstancePath>
+<Position>-0.02 -0.01 -0.069</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident74">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HCFT5-60-4</Uid>
+<Uid>HCFT60-Plate5-1</Uid>
+</InstancePath>
+<Position>0 -0.01 0.02</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident75">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.4</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor_assem-1</Uid>
+<Uid>motor_mount-1</Uid>
+</InstancePath>
+<Position>-0.025 -0.045 0.005</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident76">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>0.025 -0.006 -0.4</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor_assem-1</Uid>
+<Uid>motor_mount-1</Uid>
+</InstancePath>
+<Position>0.025 0.045 0.005</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Motor_assem-1</Uid>
+<Uid>motor_mount-1</Uid>
+</InstancePath>
+<Position>0 0 0.005</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>0.015 0.004 -1.1</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident78">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1200-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 -1.2</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>opposite_pulley_assem-1</Uid>
+<Uid>pulley_flange-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident79">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1200-1</Uid>
+</InstancePath>
+<Position>0.025 0.014 -1.2</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>opposite_pulley_assem-1</Uid>
+<Uid>pulley_flange-1</Uid>
+</InstancePath>
+<Position>0.03 0.005 -0.01</Position>
+<Axis>1 0 -3.46945e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident80">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>-0.015 -0.004 -1.1</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>opposite_pulley_assem-1</Uid>
+<Uid>pulley_flange-1</Uid>
+</InstancePath>
+<Position>-0.03 0.005 -0.01</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>opposite_pulley_assem-1</Uid>
+<Uid>6x50_shaft-1</Uid>
+</InstancePath>
+<Position>0.05 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>HTPA14S5M100-B-P6_a-1</Uid>
+</InstancePath>
+<Position>0.028 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HTPA14S5M100-B-P6_a-1</Uid>
+</InstancePath>
+<Position>0.028 0.007 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>opposite_pulley_assem-1</Uid>
+<Uid>pulley_flange-1</Uid>
+</InstancePath>
+<Position>-0.03 0.085 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident82">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>-0.0055 -0.00065359 -1.1</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-3030-B-1</Uid>
+<Uid>HFC6-3030-Bc-1</Uid>
+</InstancePath>
+<Position>-0.011625 0.011625 -0.0015</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident83">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>-0.015 0.013 -1.1</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-3030-B-1</Uid>
+<Uid>HFC6-3030-Bc-1</Uid>
+</InstancePath>
+<Position>-0.015 0.0137 -0.003</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident84">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>0.013 0.015 -1.1</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-3030-B-1</Uid>
+<Uid>HFC6-3030-Bc-1</Uid>
+</InstancePath>
+<Position>0.0137 0.015 -0.003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident86">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>-0.015 0.013 -1.1</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-3030-B-2</Uid>
+<Uid>HFC6-3030-Bc-1</Uid>
+</InstancePath>
+<Position>0.015 -0.0137 -0.003</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident87">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>-0.004 0.015 -1.1</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-3030-B-2</Uid>
+<Uid>HFC6-3030-Bc-1</Uid>
+</InstancePath>
+<Position>0.0137 0.015 -0.003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident88">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.025 0.023 -0.6</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-3</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>-0.025 0.024 -0.003</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident89">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-3</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>0.024 0.025 -0.003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident90">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.023 0.023 -0.6</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-3</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>-0.024 0.024 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident91">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>-0.025 0.006 -0.4</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-2</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>-0.025 0.024 -0.003</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident92">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.4</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-2</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>0.024 0.025 -0.003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident93">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 -0.4</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-2</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>-0.024 0.024 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident94">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-1</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>0.024 0.025 -0.003</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident95">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.025 0.006 -0.6</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-1</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>-0.025 0.024 -0.003</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident96">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 -0.6</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-1</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>-0.024 0.024 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident97">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-4</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>-0.024 0.024 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident98">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>-0.025 0.006 -0.6</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-4</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>0.025 -0.024 -0.003</Position>
+<Axis>1 1.11022e-016 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident99">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-4</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>0.024 0.025 -0.003</Position>
+<Axis>1.11022e-016 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident100">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-5</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>-0.024 0.024 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident101">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.6</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-5</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>0.024 0.025 -0.003</Position>
+<Axis>1.11022e-016 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident102">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-600-2</Uid>
+</InstancePath>
+<Position>-0.025 0.006 -0.6</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-5</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>0.025 -0.024 -0.003</Position>
+<Axis>1 1.11022e-016 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident103">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>-0.025 0.006 -0.4</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-6</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>-0.025 0.024 -0.003</Position>
+<Axis>-1 -1.11022e-016 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident104">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>-0.023 0.023 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-6</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>-0.024 0.024 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident105">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -0.4</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-5050-B-6</Uid>
+<Uid>HFC6-5050-Bc-1</Uid>
+</InstancePath>
+<Position>-0.024 -0.025 -0.003</Position>
+<Axis>-1.11022e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident106">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>KSRL_trolley-1</Uid>
+<Uid>SFAN8-40-F10-B0-P4-2</Uid>
+</InstancePath>
+<Position>0 0.0023 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>load-1</Uid>
+</InstancePath>
+<Position>0 0 0.005</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>KSRL_trolley-1</Uid>
+<Uid>SFAN8-40-F10-B0-P4-2</Uid>
+</InstancePath>
+<Position>0.04 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>load-1</Uid>
+</InstancePath>
+<Position>0 0 0.005</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident107">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>-0.0055 -0.00065359 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HNTLP6-1100-M3-N65-P80-13-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HNTLP6-1100-M3-N65-P80-13-1</Uid>
+</InstancePath>
+<Position>0.0039 0.0055 1.1</Position>
+<Axis>1 -5.42101e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>-0.004 0.013 -1.1</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident110">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>0.004 0.013 -1.1</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HNTLP6-1100-M3-N65-P80-13-1</Uid>
+</InstancePath>
+<Position>-0.0075 0.0055 1.1</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident111">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>rail_assem-1</Uid>
+<Uid>NEFS6-3030-1100-1</Uid>
+</InstancePath>
+<Position>-0.0055 -0.00065359 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HFC6-3030-B-2</Uid>
+<Uid>HFC6-3030-Bc-1</Uid>
+</InstancePath>
+<Position>-0.0137 0.0137 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident112">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-1</Uid>
+</InstancePath>
+<Position>0.006 0.025 -1.15</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-11</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>1.22465e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident113">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>-0.006 -0.025 -0.4</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-11</Uid>
+</InstancePath>
+<Position>0 0.056 0.04</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-1</Uid>
+</InstancePath>
+<Position>-0.025 0.023 -1.15</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident115">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>-0.006 -0.025 -0.4</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-12</Uid>
+</InstancePath>
+<Position>0 0 0.04</Position>
+<Axis>1.22465e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident116">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-1150-2</Uid>
+</InstancePath>
+<Position>-0.006 -0.025 -1.15</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-12</Uid>
+</InstancePath>
+<Position>0 0.056 0.04</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HBLFTD6_50_flange-12</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>NFS6-5050-400-1</Uid>
+</InstancePath>
+<Position>-0.025 0.006 -0.4</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="rail_assem" uid="rail_assem" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="rail_assem.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="KSRL_trolley" uid="KSRL_trolley" version="213">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="KSRL_trolley.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="SHTBT815" uid="SHTBT815" version="110">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="SHTBT815.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="HCFT5-60" uid="HCFT5-60" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="HCFT5-60.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Motor_assem" uid="Motor_assem" version="121">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Motor_assem.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="opposite_pulley_assem" uid="opposite_pulley_assem" version="135">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="opposite_pulley_assem.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="HFC6-3030-B" uid="HFC6-3030-B" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="HFC6-3030-B.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="HFC6-5050-B" uid="HFC6-5050-B" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="HFC6-5050-B.sldasm" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="-6066adjuster" uid="-6066adjuster*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="-6066adjuster.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.023289</Mass>
+<CenterOfMass>0 0.0097602 5.31634e-010</CenterOfMass>
+<Inertia>7.69432e-006 2.65522e-006 7.69432e-006 3.11887e-014 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="-6066adjuster_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.602353" g="0.602353" b="0.602353" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="-HCFTF60184015wheel" uid="-HCFTF60184015wheel*:*Default" version="104">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="-HCFTF60184015wheel.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0214218</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>4.05198e-006 2.57349e-006 2.57349e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="-HCFTF60184015wheel_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.602353" g="0.602353" b="0.602353" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="-HCFTF60body" uid="-HCFTF60body*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="-HCFTF60body.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00660292</Mass>
+<CenterOfMass>-0.000148624 -0.012279 0.00715939</CenterOfMass>
+<Inertia>1.43947e-006 1.3807e-006 1.36821e-006 -3.90166e-007 -1.26001e-008 1.83666e-008</Inertia>
+</MassProperties>
